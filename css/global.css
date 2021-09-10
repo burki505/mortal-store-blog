@@ -1,0 +1,239 @@
+:root{
+    --blackish: #2D2D33;
+    --blackish2: #232323;
+    --grayish: #ABABAD;
+    --reddish: #CF372D;
+    --light-grayish:#D5D5D6;
+    --blueish: #0062A6;
+    --blueish2: #02B3F9;
+    --bebas: 'Bebas Neue', cursive;
+    --quicksand: 'Quicksand', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --urbanist: 'Urbanist', sans-serif;
+
+    /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,1)); */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+body{
+    background: black;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+ul{
+    list-style: none !important;
+}
+
+.button-orange{
+    padding: 1rem 1.8rem;
+    background: #FF6701;
+    color: black;
+    font-family: var(--raleway);
+    font-weight: bolder;
+    transition: 0.5s ease-in-out all;
+    transform: skewX(-5deg);
+    /* width: 2rem; */
+}
+
+.button-transparent{
+    padding: 1rem 1.8rem;
+    background: transparent;
+    color: white;
+    font-family: var(--raleway);
+    font-weight: bolder;
+    transition: 0.5s ease-in-out all;
+    transform: skewX(-5deg);
+    /* width: 2rem; */
+}
+.button-transparent:hover{
+    background: rgb(173, 38, 38);
+}
+.button-white{
+    padding: 1rem 1.8rem;
+    background: white;
+    color: black;
+    font-family: var(--raleway);
+    font-weight: bolder;
+    transition: 0.5s ease-in-out all;
+    transform: skewX(-5deg);
+    /* width: 2rem; */
+}
+.button-white:hover{
+    background: transparent;
+    color: white;
+}
+
+.button-orange:hover{
+    background: transparent;
+    color: white;
+}
+
+.button-black{
+    padding: 1rem 2rem;
+    background: black;
+    color: white;
+    font-family: var(--raleway);
+    font-weight: bolder;
+    transition: 0.5s ease-in-out all;
+    
+}
+
+.button-black:hover{
+    background: white;
+    color: black;
+}
+
+.button-black-small{
+    padding: 1rem 3rem;
+    background: black;
+    color: white;
+    font-family: var(--raleway);
+    font-weight: bolder;
+    transition: 0.5s ease-in-out all;
+    /* border-radius: 2rem; */
+    transform: skewX(-5deg);
+}
+.button-black-small:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+.preloader{
+    max-height: 100vh;
+    display: flex;
+    position: fixed;
+    background: black;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    /* visibility: hidden; */
+}
+
+.preloader-video{
+ 
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.6;
+    
+}
+.preloader-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.preloader-img{
+    position: absolute;
+    top: 100px;
+    left: 32%;
+    opacity: 0;
+    width: 500px;
+    mix-blend-mode: screen;
+    z-index: 10;
+    
+}
+.preloader-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: white;
+}
+
+.preloader-fire{
+    position: absolute;
+    top: 315px;
+    left: 33%;
+    width: 480px;
+    opacity: 0;
+    
+}
+.preloader-fire video{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 150%;
+    outline: none;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.slider-button{
+    text-decoration: none;
+    padding: 10px 36px;
+    background-color: black;
+    color: #fff;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    outline: none;
+  }
+ 
+  
+   .slider-button::before{
+      content: "";
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      transform: translate(-50%,-50%);
+      background-image: radial-gradient(circle closest-side,rgb(114, 38, 38),transparent);
+      width: 0;
+      height: 0;
+      transition: width 0.3s ease-in, height 0.3s ease;
+      z-index: -1;
+  }
+  
+   .slider-button:hover::before{
+      width: 250px;
+      height: 250px;
+  }
+
+  .slider-button-green{
+    text-decoration: none;
+    padding: 10px 36px;
+    background-color: green;
+    color: #fff;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    outline: none;
+  }
+  
+   .slider-button-green::before{
+      content: "";
+      position: absolute;
+      left: var(--x);
+      top: var(--y);
+      transform: translate(-50%,-50%);
+      background-image: radial-gradient(circle closest-side,rgb(117, 60, 60),transparent);
+      width: 0;
+      height: 0;
+      transition: width 0.3s ease-in, height 0.3s ease;
+      z-index: -1;
+  }
+  
+   .slider-button-green:hover::before{
+      width: 250px;
+      height: 250px;
+  }
+
+  

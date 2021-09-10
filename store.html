@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- -------------HEADER-------------- -->
+
+    <header id="header">
+
+        <!-- <div class="preloader">
+            <div class="preloader-video">
+            <video src="./assets/Tiny_Coding.mp4" autoplay  muted></video>
+            </div>
+            <div class="preloader-img">
+                <img src="./assets/pngegg.png" alt="">
+            </div>
+            <div class="preloader-fire">
+                <video src="./assets/Fire - 33072.mp4" autoplay muted></video>
+            </div>
+        </div> -->
+
+        <div class="bg-image"></div>
+
+        <div class="container">
+        <nav class="my-navbar d-flex justify-content-around align-items-center">
+            <a href="index.html" class="mynav-logo"><img src="./assets/logo.png" alt=""></a>
+            <ul class="mynavbar-menu d-flex">
+                <li class="mynav-link mx-5"><a href="index.html">HOME</a></li>
+                <li class="mynav-link mx-5"><a href="store.html">STORE</a></li>
+                <li class="mynav-link mx-5"><a href="story.html">YOUR STORY</a></li>
+                <li class="mynav-link mx-5 login"><a href="login.html">LOGIN</a></li>
+                <li class="mynav-link mx-5"><a href="signup.html">SIGN UP</a></li>
+                
+            </ul>
+
+            <div class="navbar-input-area  pb-2">
+                <div class="cart-extended">1</div>
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="cart-dropdown">
+                        <div class="dropdown-left d-flex justify-content-around">
+                        <div class="dropdown-img">
+                            <img src="./assets/sub.jpg" alt="">
+                        </div>
+                        <div class="dropdown-expo">
+                            <h3>Mortal Kombat X</h3>
+                            <span>1 x ₺21.00</span>
+                        </div>
+                        
+                    </div>
+                    <div class="dropdown-left d-flex justify-content-around">
+                        <div class="dropdown-img">
+                            <img src="./assets/sub.jpg" alt="">
+                        </div>
+                        <div class="dropdown-expo">
+                            <h3>Mortal Kombat X</h3>
+                            <span>1 x ₺21.00</span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="subtotal">Subtotal: ₺21.00</div>
+                        <a class="cart-link" href="cart.html">View Cart</a>
+                    </div>
+                
+                
+
+                
+            </div>
+
+        </nav>
+
+                <!-- ------------STORE SLIDER--------------- -->
+                
+                        <div class="img-slider">
+                            <div class="slide active">
+                              <img src="./assets/fire-garden.jpg" alt="">
+                              <div class="info">
+                                <h2>Slide 01</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <span>Price: $29.80</span>
+                                    <button class="slider-button">ADD TO CART</button>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="./assets/lin-kuei.jpg" alt="">
+                              <div class="info">
+                                <h2>Slide 02</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <span>Price: $29.80</span>
+                                    <button class="slider-button">ADD TO CART</button>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="./assets/red-dragon.jpg" alt="">
+                              <div class="info">
+                                <h2>Slide 03</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <span>Price: $29.80</span>
+                                    <button class="slider-button">ADD TO CART</button>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="./assets/white-lotus.jpg" alt="">
+                              <div class="info">
+                                <h2>Slide 04</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <span>Price: $29.80</span>
+                                    <button class="slider-button">ADD TO CART</button>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <img src="./assets/scorp2.jpg" alt="">
+                              <div class="info">
+                                <h2>Slide 05</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <span>Price: $29.80</span>
+                                    <button class="slider-button">ADD TO CART</button>
+                              </div>
+                            </div>
+                            <div class="slider-buttons d-flex flex-column justify-content-between">
+                              <div class="slider-buttons-box d-flex align-items-center">
+                                <div class="slider-box-img">
+                                  <img src="./assets/fire-garden.jpg" alt="">
+                                </div>
+                                <div class="slider-box-text">
+                                  Saints Row
+                                </div>
+                              </div>
+                              <div class="slider-buttons-box d-flex align-items-center">
+                                <div class="slider-box-img">
+                                  <img src="./assets/lin-kuei.jpg" alt="">
+                                </div>
+                                <div class="slider-box-text">
+                                  Saints Row
+                                </div>
+                              </div>
+                              <div class="slider-buttons-box d-flex align-items-center">
+                                <div class="slider-box-img">
+                                  <img src="./assets/red-dragon.jpg" alt="">
+                                </div>
+                                <div class="slider-box-text">
+                                  Saints Row
+                                </div>
+                              </div>
+                              <div class="slider-buttons-box d-flex align-items-center">
+                                <div class="slider-box-img">
+                                  <img src="./assets/white-lotus.jpg" alt="">
+                                </div>
+                                <div class="slider-box-text">
+                                  Saints Row
+                                </div>
+                              </div>
+                              <div class="slider-buttons-box d-flex align-items-center">
+                                <div class="slider-box-img">
+                                  <img src="./assets/scorp2.jpg" alt="">
+                                </div>
+                                <div class="slider-box-text">
+                                  Saints Row
+                                </div>
+                              </div>
+                            
+                            </div>
+                         
+                          </div>
+
+                          <!-- ------------!STORE SLIDER--------------- -->
+                 
+       
+    </div>
+    
+
+   
+
+    </header>
+
+    
+
+
+    <!-- -------------!HEADER-------------- -->
+
+    <main id="main">
+
+       
+
+                <section id="for-sales">
+                    <div class="container-fluid">
+                        <h3 class="for-sales-title">
+                            ON SALE
+                        </h3>
+                        <div class="for-sales-menus">
+                            <div class="for-sales-background">
+                            <div class="for-sales-preview d-flex">
+                                <i class="fas fa-times close-button"></i>
+                                <div class="preview-img">
+                                    <img src="./assets/lin-kuei.jpg" alt="">
+                                </div>
+                                <div class="preview-cart">
+                                    <h1>Duzzer and Piezze</h1>
+                                    <div class="preview-price ">
+                                        <span>₺450.00 TL</span>
+                                        <span class="ml-3">₺475.00 TL</span>
+                                    </div>
+                                    <div class="preview-description ">Lorem ipsum dolor sit amet.</div>
+                                    <div class="preview-product-qty ">
+                                        <form class="d-flex flex-column" action="">
+                                            <label for="quantity">Quantity</label>
+                                            <input type="number" value="1"  name="" id="quantity">
+
+                                            <button class="slider-button" type="submit">ADD TO CART</button>
+                                            
+                                        </form>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="sales-card d-flex flex-column">
+                                        <i class="fas fa-heart wishlist"></i>
+                                        <i class="fas fa-eye preview"></i>
+                                        <div class="sales-img">
+                                            <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                        </div>
+                                        <a href="item.html">
+                                            <div class="sales-card-bot">
+                                                <h4>Box Slayers</h4>
+                                                <span class="company d-flex">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <div class="sales-price">
+                                                    <span class="discount">-20%</span>
+                                                    <span class="real">₺25</span>
+                                                    <span class="brute">₺22,50</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="sales-card d-flex flex-column">
+                                        <i class="fas fa-heart wishlist"></i>
+                                        <i class="fas fa-eye preview"></i>
+                                        <div class="sales-img">
+                                            <a href="item.html"><img src="./assets/lin-kuei.jpg" alt=""></a>
+                                        </div>
+                                        <a href="item.html">
+                                            <div class="sales-card-bot">
+                                                <h4>Box Slayers</h4>
+                                                <span class="company d-flex">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <div class="sales-price">
+                                                    <span class="discount">-20%</span>
+                                                    <span class="real">₺25</span>
+                                                    <span class="brute">₺22,50</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="sales-card d-flex flex-column">
+                                        <i class="fas fa-heart wishlist"></i>
+                                        <i class="fas fa-eye preview"></i>
+                                        <div class="sales-img">
+                                            <a href="item.html"><img src="./assets/red-dragon.jpg" alt=""></a>
+                                        </div>
+                                        <a href="item.html">
+                                            <div class="sales-card-bot">
+                                                <h4>Box Slayers</h4>
+                                                <span class="company d-flex">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <div class="sales-price">
+                                                    <span class="discount">-20%</span>
+                                                    <span class="real">₺25</span>
+                                                    <span class="brute">₺22,50</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="sales-card d-flex flex-column">
+                                        <i class="fas fa-heart wishlist"></i>
+                                        <i class="fas fa-eye preview"></i></a>
+                                        <div class="sales-img">
+                                            <a href="item.html"><img src="./assets/pngegg.png" alt=""></a>
+                                        </div>
+                                        <a href="item.html">
+                                        <div class="sales-card-bot">
+                                            <h4>Box Slayers</h4>
+                                            <span class="company d-flex">
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </span>
+                                            <div class="sales-price">
+                                                <span class="discount">-20%</span>
+                                                <span class="real">₺25</span>
+                                                <span class="brute">₺22,50</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="sales-card d-flex flex-column">
+                                        <i class="fas fa-heart wishlist"></i>
+                                        <i class="fas fa-eye preview"></i>
+                                        <div class="sales-img">
+                                            <a href="item.html"><img src="./assets/red-dragon.jpg" alt=""></a>
+                                        </div>
+                                        <a href="item.html">
+                                            <div class="sales-card-bot">
+                                                <h4>Box Slayers</h4>
+                                                <span class="company d-flex">
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <div class="sales-price">
+                                                    <span class="discount">-20%</span>
+                                                    <span class="real">₺25</span>
+                                                    <span class="brute">₺22,50</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                
+
+            
+
+                <!-- ------------ADVERTISE------------ -->
+
+
+
+               
+
+
+                     <section id="adv">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="left-advertise">
+                            <div class="left-advertise-img">
+                                <img  src="./assets/advertise.jpg" alt="">
+                            </div>
+                            <div class="left-advertise-text">
+                                <h3>ON SALE 50%</h3>
+                                <p>For more visit your cart</p>
+                                <a href="" class="button-orange">GO TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="left-advertise d-flex justify-content-center align-items-center">
+                            <div class="left-advertise-img">
+                                <img src="./assets/lin-kuei.jpg" alt="">
+                            </div>
+                            <div class="left-advertise-text">
+                                <h3>ON SALE 50%</h3>
+                                
+                                <a href="" class="button-orange">GO TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ------------!ADVERTISE------------ -->
+
+        
+
+        <!-- -------------POPULAR---------------- -->
+
+
+        <section id="for-sales">
+            <div class="container-fluid">
+                <h3 class="for-sales-title">
+                    POPULAR
+                </h3>
+                <div class="for-sales-menus">
+                    <div class="for-sales-background">
+                    <div class="for-sales-preview d-flex">
+                        <i class="fas fa-times close-button"></i>
+                        <div class="preview-img">
+                            <img src="./assets/lin-kuei.jpg" alt="">
+                        </div>
+                        <div class="preview-cart">
+                            <h1>Duzzer and Piezze</h1>
+                            <div class="preview-price ">
+                                <span>₺450.00 TL</span>
+                                <span class="ml-3">₺475.00 TL</span>
+                            </div>
+                            <div class="preview-description ">Lorem ipsum dolor sit amet.</div>
+                            <div class="preview-product-qty ">
+                                <form class="d-flex flex-column" action="">
+                                    <label for="quantity">Quantity</label>
+                                    <input type="number" value="1"  name="" id="quantity">
+
+                                    <button class="slider-button" type="submit">ADD TO CART</button>
+                                    
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/lin-kuei.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/red-dragon.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i></a>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/pngegg.png" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                <div class="sales-card-bot">
+                                    <h4>Box Slayers</h4>
+                                    <span class="company d-flex">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <div class="sales-price">
+                                        <span class="discount">-20%</span>
+                                        <span class="real">₺25</span>
+                                        <span class="brute">₺22,50</span>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/red-dragon.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sales-card d-flex flex-column">
+                                <i class="fas fa-heart wishlist"></i>
+                                <i class="fas fa-eye preview"></i>
+                                <div class="sales-img">
+                                    <a href="item.html"><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <a href="item.html">
+                                    <div class="sales-card-bot">
+                                        <h4>Box Slayers</h4>
+                                        <span class="company d-flex">
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="sales-price">
+                                            <span class="discount">-20%</span>
+                                            <span class="real">₺25</span>
+                                            <span class="brute">₺22,50</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- -------------!POPULAR---------------- -->
+
+
+
+        <!-- -----------------TODAY'S------------ -->
+
+            <section id="today-choice">
+                <div class="container-fluid d-flex justify-content-center align-items-center">
+                    <div class="today-choice-main d-flex flex-column align-items-center justify-content-center">
+                        <h1>MORTAL KOMBAT X: <br> SCORPION'S REVENGE</h1>
+                        <div class="today-choice-countdown d-flex justify-content-between">
+                            <div class="countdown-box d-flex flex-column text-center">
+                                <h4>Days</h4>
+                                <span>00</span>
+                            </div>
+                            <div class="countdown-box d-flex flex-column text-center">
+                                <h4>Hours</h4>
+                                <span>00</span>
+                            </div>
+                            <div class="countdown-box d-flex flex-column text-center">
+                                <h4>Minutes</h4>
+                                <span>00</span>
+                            </div>
+                            <div class="countdown-box d-flex flex-column text-center">
+                                <h4>Seconds</h4>
+                                <span>00</span>
+                            </div>
+
+                            
+                        </div>
+                        <a href="" class="button-white mt-3">PRE-ORDER</a>
+                    </div>
+                </div>
+            </section>
+
+
+        <!-- -----------------!TODAY'S------------ -->
+
+
+
+
+        <!-- ------------SUB-TESTIMONIAL------------- -->
+
+
+        <section id="sub-testimonial">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <div class="sub-test-img">
+                    <img src="./assets/sub-test.png" alt="">
+                </div>
+                <div class="sub-test-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius, similique necessitatibus quas accusantium distinctio cumque fuga reprehenderit iste id saepe, inventore enim natus rerum autem dolores. Nobis, obcaecati iure.</p>
+                    <span>Johnny Cage</span>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- ------------!SUB-TESTIMONIAL------------- -->
+
+
+
+        <section id="final-call">
+            <div class="container-fluid">
+                <h2 >Why Buy From Us</h2>
+                <div class="choose-us-wrapper d-flex flex-wrap justify-content-center align-items-center">
+                    <div class="choose-us-box d-flex flex-column justify-content-around align-items-center m-3 text-center">
+                        <i class="fab fa-cc-visa"></i>
+                        <h3>Payment</h3>
+                        <span>More than 10 payment system</span>
+                    </div>
+                    <div class="choose-us-box d-flex flex-column justify-content-around align-items-center m-3 text-center">
+                        <i class="fab fa-cc-visa"></i>
+                        <h3>Payment</h3>
+                        <span>More than 10 payment system</span>
+                    </div>
+                    <div class="choose-us-box d-flex flex-column justify-content-around align-items-center m-3 text-center">
+                        <i class="fab fa-cc-visa"></i>
+                        <h3>Payment</h3>
+                        <span>More than 10 payment system</span>
+                    </div>
+                    <div class="choose-us-box d-flex flex-column justify-content-around align-items-center m-3 text-center">
+                        <i class="fab fa-cc-visa"></i>
+                        <h3>Payment</h3>
+                        <span>More than 10 payment system</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- ---------------POSTS--------------- -->
+            <section id="blog-posts">
+                <div class="container-fluid blog-container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-md-6 col-xl-4 blog-card">
+                            
+                            <div class="blog-card-new d-flex flex-column">
+                                <h3>Latest Posts</h3>
+                                <div class="blog-card-wrap d-flex">
+                                <div class="blog-card-img">
+                                    <a href=""><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-card-text">
+                                    <div class="main-card-title blog-card-title d-flex">
+                                        <a href=""><span class="main-card-title-read">2 min read</span></a>
+                                        <a href=""><span class="main-card-title-date ml-2">Nov 11, 2020</span></a>
+                                    </div>
+                                    <p><a class="blog-card-para" href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deserunt.</a></p>
+                                    <div class="blog-card-profile d-flex">
+                                        <img src="./assets/logo.png" alt="">
+                                        <p>Robert Wilson</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-card-wrap d-flex mt-5">
+                                <div class="blog-card-img">
+                                    <a href=""><img src="./assets/fire-garden.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-card-text">
+                                    <div class="main-card-title blog-card-title d-flex">
+                                        <a href=""><span class="main-card-title-read">2 min read</span></a>
+                                        <a href=""><span class="main-card-title-date ml-2">Nov 11, 2020</span></a>
+                                    </div>
+                                    <p><a class="blog-card-para" href="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deserunt.</a></p>
+                                    <div class="blog-card-profile d-flex">
+                                        <img src="./assets/logo.png" alt="">
+                                        <p>Robert Wilson</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-4 blog-tags-wrapper">
+                            <h3>Explore Tags</h3>
+                            <div class="blog-tags d-flex flex-wrap">
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                                <a class="blog-tags-pills" href="">Business</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-4 blog-contact">
+                            <h3>Get Interesting News</h3>
+                            <p class="text-gray">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, ullam!</p>
+                            <form class="d-flex" action="">
+                                <input class="blog-contact-email" type="email" name="" id="" placeholder="Email Address">
+                                <button class="button-black-small ml-3">Join</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ---------------!POSTS--------------- -->
+
+        <!-- -----------------FOOTER------------- -->
+
+            <footer id="footer" class="d-flex justify-content-around align-items-center">
+                <p>2021 &copy; <span>MK</span> All Rights Reserved.</p>
+                <div class="social-links d-flex">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fas fa-basketball-ball"></i></a>
+                </div>
+            </footer>
+
+
+
+        <!-- -----------------!FOOTER------------- -->
+        
+ 
+
+    
+
+
+
+    
+
+
+    
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+<script src="./js/app.js"></script>
+
+</body>
+</html>
